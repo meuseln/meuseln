@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/RubikMonoOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pix';
+    src: url('../fonts/Pixelify.ttf') format('truetype');
+}
+
+
+body {
+    display: block;
+    margin: 30px auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2 {
+    display: block;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+a {
+    font-family: Verdana, sans-serif;
+    color: #00B4D8;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+a:hover {
+    font-family: Verdana, sans-serif;
+    color: #0077B6;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+a:active {
+    font-family: Verdana, sans-serif;
+    color: #03045E;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation > li {
+    display: inline;
+    padding: 0 20px;
+}
+
+#banner {
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px dashed #0077B6;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+.footertxt {
+    font-size: 12px;
+}
+
+.label {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.rubik {
+    font-family: 'Rubik', Verdana, sans-serif;
+}
+
+.pix {
+    font-family: 'Pix', Verdana, sans-serif;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.regular {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 25px;
+}
+
+.type-container {
+    margin-top: 30px;
+}
+
+.font-panel {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 10px;
+}
+
+#text-container {
+    border-top: 3px dashed #0077B6;
+}
+
+#text-container ul {
+    font-family: Verdana, sans-serif;
+}
+
+#color-container {
+    border-top: 3px dashed #0077B6;
+}
+
+.panel {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.darkblue {
+    background-color: #03045E;
+    color: #fff;
+}
+
+.coolblue {
+    background-color: #0077B6;
+    color: #fff;
+}
+
+.mediumblue {
+    background-color: #00B4D8;
+    color: #fff;
+}
+
+.skyblue {
+    background-color: #90E0EF;
+    color: #fff;
+}
+
+.lightblue {
+    background-color: #CAF0F8;
+    color: #fff;
+}
+
+footer {
+    background-color: #03045E;
+    color: #CAF0F8;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+p.footer {
+    font-family: 'Pix', Verdana, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    padding: 0 10px;
+}
