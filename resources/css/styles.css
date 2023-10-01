@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/RubikMonoOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pix';
+    src: url('../fonts/Pixelify.ttf') format('truetype');
+}
+
+
+body {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2 {
+    display: block;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+a {
+    font-family: Verdana, sans-serif;
+    color: #00B4D8;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+a:hover {
+    font-family: Verdana, sans-serif;
+    color: #0077B6;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+a:active {
+    font-family: Verdana, sans-serif;
+    color: #03045E;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #03045E;
+    color: #CAF0F8;
+    padding: 10px 0;
+}
+
+.navigation > li {
+    display: inline;
+    padding: 0 20px;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+.intro {
+    padding-bottom: 10px;
+}
+
+.introtext {
+    max-width: 50%;
+}
+
+footer {
+    background-color: #03045E;
+    color: #CAF0F8;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+p.footer {
+    font-family: 'Pix', Verdana, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    padding: 0 10px;
+}
+
+section {
+    border: 3px dashed #CAF0F8;
+    padding: 0 8px;
+    text-align: center;
+}
+
+ul {
+    font-family: Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
