@@ -11,7 +11,7 @@
 
 body {
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 60%;
 }
 
@@ -54,6 +54,9 @@ a:active {
 
 .navigation {
     text-align: center;
+    background-color: #03045E;
+    color: #CAF0F8;
+    padding: 10px 0;
 }
 
 .navigation > li {
